@@ -6,7 +6,7 @@ class Player
 
   def initialize wallet = 0
     @wallet = wallet
-    @hand = Hand.new
+    hand_new
   end
 
   def add_to_hand card
