@@ -25,4 +25,9 @@ class Player
     @hand = Hand.new
   end
 
+  def hit?
+    puts "Would you like to hit? (y/n)"
+    gets.chomp == "y"
+  end
+
 end
