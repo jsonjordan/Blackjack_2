@@ -33,7 +33,7 @@ class Hand
   end
 
   def showing
-    cards.first.to_s
+    cards.first.to_s + " 🂠".light_white
   end
 
   def beats? other_hand

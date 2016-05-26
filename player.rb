@@ -26,8 +26,8 @@ class Player
   end
 
   def hit?
-    puts "Would you like to hit? (y/n)"
-    gets.chomp == "y"
+    puts "Would you like to (h)it or (s)tay?"
+    gets.chomp == "h"
   end
 
 end
